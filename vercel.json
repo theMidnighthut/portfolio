@@ -1,0 +1,21 @@
+{
+    "version": 2,
+    "builds": [{ "src": "index.js", "use": "@now/node-server" }],
+    "routes" :[
+        {
+            "src" : "/about",
+            "dest" : "/about.html",
+            "methods": ["GET"]
+        },
+        {
+            "src" : "/contact",
+            "dest" : "/contact.html",
+            "methods": ["GET"]
+        },
+        {
+            "src" : "/attributes",
+            "dest" : "/attributes.html",
+            "methods": ["GET"]
+        }
+    ]
+  }

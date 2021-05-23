@@ -1,5 +1,5 @@
 const express = require('express');
-const serverless = require('serverless-http');
+// const serverless = require('serverless-http');
 const app = express();
 const path = require('path');
 const router = express.Router();
@@ -28,4 +28,4 @@ router.get('/attributes',function(req,res){
 app.use('/', router);
 app.listen(process.env.port || 3000);
 
-module.exports.handler=serverless(app);
+// module.exports.handler=serverless(app);

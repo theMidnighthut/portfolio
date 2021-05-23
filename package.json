@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "build": "./node_modules/.bin/netlify-lambda build src"
+    "build": "netlify-lambda build express"
   },
   "author": "",
   "license": "ISC",
@@ -14,6 +14,7 @@
     "express": "^4.17.1",
     "netlify-lambda": "^2.0.7",
     "nodemon": "^2.0.7",
-    "serverless-http": "^2.7.0"
+    "serverless-http": "^2.7.0",
+    "vercel": "^22.0.1"
   }
 }
